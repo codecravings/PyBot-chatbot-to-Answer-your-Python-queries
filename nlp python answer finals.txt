@@ -2,6 +2,8 @@
 
 String store characters and have many built-in convenience methods that let you modify their content strings are immutable, meaning they cannot be changed in place.
 
+Bottle is a fast, simple and lightweight WSGI micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the Python Standard Library.
+
 Variables are assigned values using the = operator, which is not to be confused with the == sign used for testing equality, a variable can hold almost any type of value such as lists, dictionaries, functions.
 
 Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function this process is called pickling While the process of retrieving original Python objects from the stored string representation is called unpickling.
@@ -11,6 +13,8 @@ Map function executes the function given as the first argument on all the elemen
 TkInter is Python library It is a toolkit for GUI development It provides support for various GUI tools or widgets (such as buttons, labels, text boxes, radio buttons, etc) that are used in GUI applications The common attributes of them include Dimensions, Colors, Fonts, Cursors, etc.
 
 A Module is a Python script that generally contains import statements, functions, classes and variable definitions, and Python runnable code and it “lives” file with a ‘.py’ extension zip files and DLL files can also be modules.Inside the module, you can refer to the module name as a string that is stored in the global variable name.
+
+Keras is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load
 
 Lambda is a single expression anonymous function often used as inline function in python.
 
@@ -52,6 +56,8 @@ The dir() function is used to display the defined symbols.
 
 Monkey patch only refers to dynamic modifications of a class or module at run-time. 
 
+
+
 We use *args when we aren’t sure how many arguments are going to be passed to a function, or if we want to pass a stored list or tuple of arguments to a function.
 
 **kwargs is used when we don’t know how many keyword arguments will be passed to a function, or it can be used to pass the values of a dictionary as keyword arguments.
@@ -78,7 +84,7 @@ Yes python support creating (.exe) file using module cx_freez.
 
 Pycharm,idle,Spyder are various ide for python programming.
 
-Yes python can be used for mobile app development using module kivy.
+Yes python can be used for mobile app development using module kivy.Kivy is a free and open source Python framework for developing mobile apps and other multitouch application software with a natural user interface.
 
 Shallow copy is used when a new instance type gets created and it keeps the values that are copied in the new instance and Deep copy is used to store the values that are already copied Deep copy doesn’t copy the reference pointers to the objects.
 
@@ -92,7 +98,7 @@ Matplotlib provides basic 3D plotting in the mplot3d.
 
 Numbers,Strings,List,Tuples,Dictionaries are the types of data type in python.
 
-(list.reverse()) Reverses objects of list in place.
+(list.reverse()) Reverses objects of list in place. Also list[::-1] reverses the list.
 
 In python generally “with” statement is used to open a file, process the data present in the file, and also to close the file without calling a close() method “with” statement makes the exception handling simpler by providing cleanup activities.
 
@@ -101,6 +107,8 @@ Yes!! Python is Object Oriented Programming language.
 Python does not provide interfaces like in Java Abstract Base Class (ABC) and its feature are provided by the Python’s “abc” module. 
 
 Both append() and extend() methods are the methods of list These methods a regex used to add the elements at the end of the list.
+
+append() adds only one element whereas extend() adds one list to another.
 
 We have three logical operators  and , or , not.
 
@@ -227,6 +235,8 @@ print() is a function to display the output of a program, using the parenthesize
 range() function returns a list of integers, the sequence of which is defined by the arguments passed to it.
 
 Sets are collections of unique but unordered items, it is possible to convert certain iterables to a set.
+
+Also, operations like set union, set intersection, set difference, etc are possible in python.
 
 Abs return the absolute value of a number.
 
@@ -379,6 +389,8 @@ metaclass is the class of a class, Class definitions create a class name, a clas
 Method Resolution Order is the order in which base classes are searched for a member during lookup.
 
 namespace is the place where a variable is stored, Namespaces are implemented as dictionaries, There are the local, global and built-in namespaces as well as nested namespaces in objects (in methods).
+
+NLTK is a leading platform for building Python programs to work with human language data. 
 
 nested scopeis the ability to refer to a variable in an enclosing definition, For instance, a function defined inside another function can refer to variables in the outer function.
 
