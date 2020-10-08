@@ -386,6 +386,8 @@ new-style class is old name for the flavor of classes now used for all class obj
 
 path entry is a single location on the import path which the path based finder consults to find modules for importing.
 
+PIP is a package manager for Python packages, or modules if you like.
+
 path entry finder a finder returned by a callable on sys.path_hooks which knows how to locate modules given a path entry.
 
 path entry hook is a callable on the [sys.path_hook] list which returns a path entry finder if it knows how to find modules on a specific path entry.
@@ -397,6 +399,8 @@ path-like object is an object representing a file system path.
 Python Enhancement Proposal PEP is a design document providing information to the Python community, or describing a new feature for Python or its processes or environment, PEPs should provide a concise technical specification and a rationale for proposed features.
 
 portion is a set of files in a single directory that contribute to a namespace package, as defined in PEP 420.
+
+package contains all the files you need for a module.
 
 Provisional API is one which has been deliberately excluded from the standard library’s backwards compatibility guarantees.
 
@@ -417,3 +421,6 @@ virtual environment is a cooperatively isolated runtime environment that allows 
 virtual machine is a computer defined entirely in software Python’s virtual machine executes the bytecode emitted by the bytecode compiler.
 
 Zen of Python is Listing of Python design principles and philosophies that are helpful in understanding and using the language, The listing can be found by typing “import this” at the interactive prompt.
+
+zip() function returns a zip object, which is an iterator of tuples where the first item in each passed iterator is paired together, and then the second item in each passed iterator are paired together etc.
+
